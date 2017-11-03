@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="au.com.ifm.ecusis" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+    </feature>
+    <name>ECUSIS</name>
+    <description>
+        ECUSIS app
+    </description>
+    <author email="support@integratedfm.com.au" href="http://integratedfm.com.au">
+        IntegratedFM (IFM) Team
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <icon density="ldpi" src="platforms/android/res/icons/ldpi.png" />
+    <icon density="mdpi" src="platforms/android/res/icons/mdpi.png" />
+    <icon density="hdpi" src="platforms/android/res/icons/hdpi.png" />
+    <icon density="xhdpi" src="platforms/android/res/icons/xhdpi.png" />
+    <icon density="xxhdpi" src="platforms/android/res/icons/xxhdpi.png" />
+    <icon density="xxxhdpi" src="platforms/android/res/icons/xxxhdpi.png" />
+    <preference name="loglevel" value="DEBUG" />
+</widget>
