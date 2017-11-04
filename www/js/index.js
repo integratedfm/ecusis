@@ -24,8 +24,8 @@ var app = {
         
         //window.open("http://afm.integratedfm.com.au/", '_self');//self system
         //window.open("http://afm.integratedfm.com.au/", '_blank', 'location=yes');//self system
-       //window.open("https://ecusis.ecu.edu.au/", '_system');
-        onImageClicked();
+       window.open("https://ecusis.ecu.edu.au/", '_system');
+        //onImageClicked();
         
         
     }
