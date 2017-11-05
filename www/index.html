@@ -5,10 +5,32 @@
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
         <title>ECUSIS App</title>
     </head>
-    <body onclick="onImageClicked()">
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        
+    <body onclick="onImageClicked()" class="body">
+        <div data-role="page" id="map-mobile-home-page"  class="page-sisfm-org">
+        <div data-role="header" >
+            <h1 id="org_page_header" class="ui-title">ECUSIS MAP MOBILE</h1>
+            
+        </div>
+            
+            <div data-role="main" class="ui-content">
+				<div >
+                    <img border="0" src= "icon.png"  alt="ECUSIS MAP MOBILE"  id="org-page-image-place-holder" class="image-custom" onclick="onImageClicked()">
+                </div>
+
+
+            </div>
+        <div data-role="footer" data-position="fixed">
+            <h2></h2>
+        </div>
+    </div>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" href="css/index.css" />
+    <script src="js/jquery-1.11.1.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    
     <script type="text/javascript">
         app.initialize();
     </script>

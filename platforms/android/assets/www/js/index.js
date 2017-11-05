@@ -24,18 +24,13 @@ var app = {
         
         //window.open("http://afm.integratedfm.com.au/", '_self');//self system
         //window.open("http://afm.integratedfm.com.au/", '_blank', 'location=yes');//self system
-       window.open("http://afm.integratedfm.com.au/", '_system');
+       window.open("https://ecusis.ecu.edu.au/", '_system');
+        //onImageClicked();
         
         
     }
 };
 
 function onImageClicked(){
-    if (typeof(webViewerRef)=="undefined" || webViewerRef==null){
-        webViewerRef = cordova.InAppBrowser.open("https://ecusis.ecu.edu.au/", '_blank', 'location=yes');
-        
-    }else{
-        webViewerRef.close();
-        webViewerRef = cordova.InAppBrowser.open("https://ecusis.ecu.edu.au/", '_blank', 'toolbar=no');
-    }
+    window.open("https://ecusis.ecu.edu.au/", '_system');
 }

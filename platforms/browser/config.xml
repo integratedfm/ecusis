@@ -2,11 +2,12 @@
 <widget id="au.com.ifm.ecusis" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>ECUSIS</name>
     <description>
-        ECUSIS app
+        ECUSIS Map Mobile app
     </description>
     <author email="support@integratedfm.com.au" href="http://integratedfm.com.au">
         IntegratedFM (IFM) Team
     </author>
+    <icon src="icon.png" />
     <content src="index.html" />
     <access origin="*" />
 </widget>

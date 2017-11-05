@@ -32,11 +32,5 @@ var app = {
 };
 
 function onImageClicked(){
-    if (typeof(webViewerRef)=="undefined" || webViewerRef==null){
-        webViewerRef = cordova.InAppBrowser.open("https://ecusis.ecu.edu.au/", '_blank', 'location=yes');
-        
-    }else{
-        webViewerRef.close();
-        webViewerRef = cordova.InAppBrowser.open("https://ecusis.ecu.edu.au/", '_blank', 'toolbar=no');
-    }
+    window.open("https://ecusis.ecu.edu.au/", '_system');
 }
