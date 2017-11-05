@@ -21,6 +21,7 @@ var app = {
     
     receivedEvent: function(id) {
         
+        window.screen.orientation.lock("portrait");
         alignOrgPageImage();
         //webViewerRef = cordova.InAppBrowser.open("http://afm.integratedfm.com.au/", '_blank',  'location=yes');
         

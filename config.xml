@@ -6,11 +6,13 @@
     </description>
     <author email="support@integratedfm.com.au" href="http://integratedfm.com.au">
         IntegratedFM (IFM) Team
-    </author>    
-	<icon src="icon.png" />
+    </author>
+    <icon src="icon.png" />
+	<splash src="icon.png" />
     <content src="index.html" />
     <access origin="*" />
     <plugin name="cordova-plugin-inappbrowser" spec="~1.7.1" />
     <engine name="android" spec="~6.2.3" />
     <engine name="ios" spec="~4.4.0" />
+    <plugin name="cordova-plugin-screen-orientation" spec="^2.0.1" />
 </widget>
