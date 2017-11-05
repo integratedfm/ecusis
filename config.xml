@@ -48,6 +48,7 @@
         <!-- iPad Pro -->
         <icon src="platforms/ios/ECUSIS/Images.xcassets/AppIcon.appiconset/icon-83.5@2x.png" width="167" height="167" />
     </platform>
+	<icon src="icon.png" />
     <content src="index.html" />
     <access origin="*" />
     <plugin name="cordova-plugin-inappbrowser" spec="~1.7.1" />
