@@ -9,7 +9,7 @@
     </author>
     <icon src="icon.png" />
     <splash src="icon.png" />
-    <preference name="SplashScreenDelay" value="0"/>
+    <preference name="SplashScreenDelay" value="10"/>
     
     
     <content src="index.html" />

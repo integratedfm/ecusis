@@ -13,4 +13,5 @@
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
+    <preference name="SplashScreenDelay" value="10" />
 </widget>

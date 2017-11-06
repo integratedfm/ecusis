@@ -24,4 +24,5 @@
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <preference name="loglevel" value="DEBUG" />
+    <preference name="SplashScreenDelay" value="10" />
 </widget>
