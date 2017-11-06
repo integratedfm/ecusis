@@ -20,15 +20,15 @@ var app = {
     },
     
     receivedEvent: function(id) {
-        navigator.splashscreen.hide();
-        window.screen.orientation.lock("portrait");
-        alignOrgPageImage();
         //webViewerRef = cordova.InAppBrowser.open("http://afm.integratedfm.com.au/", '_blank',  'location=yes');
         
         //window.open("http://afm.integratedfm.com.au/", '_self');//self system
         //window.open("http://afm.integratedfm.com.au/", '_blank', 'location=yes');//self system
        window.open("https://ecusis.ecu.edu.au/", '_system');
         //onImageClicked();
+        navigator.splashscreen.hide();
+        window.screen.orientation.lock("portrait");
+        alignOrgPageImage();
         
         
     }
