@@ -24,7 +24,7 @@ var app = {
         
         //window.open("http://afm.integratedfm.com.au/", '_self');//self system
         //window.open("http://afm.integratedfm.com.au/", '_blank', 'location=yes');//self system
-       window.open("https://ecusis.ecu.edu.au/", '_system');
+       //window.open("https://ecusis.ecu.edu.au/", '_system');
         //onImageClicked();
         //navigator.splashscreen.hide();
         window.screen.orientation.lock("portrait");
@@ -36,7 +36,12 @@ var app = {
 
 function onImageClicked(){
     window.open("https://ecusis.ecu.edu.au/", '_system');
+};
+
+function openSelectedSite(gsite){
+    window.open(gsite, '_system');
 }
+
 
 function alignOrgPageImage(){
 	var org_page_image=null;
