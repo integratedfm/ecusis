@@ -9,9 +9,8 @@
     </author>
     <icon src="icon.png" />
     <splash src="icon.png" />
-    <preference name="SplashScreenDelay" value="1"/>
-    <preference name="AutoHideSplashScreen" value="true" /> 
-    
+    <preference name="SplashScreenDelay" value="0"/>
+    <preference name="FadeSplashScreenDuration" value="0"/>
     
     <content src="index.html" />
     <access origin="*" />
