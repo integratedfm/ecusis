@@ -9,9 +9,7 @@
     </author>
     <icon src="icon.png" />
     <splash src="icon.png" />
-    <preference name="SplashScreenDelay" value="0"/>
-    <preference name="FadeSplashScreenDuration" value="0"/>
-    
+<preference name="SplashScreen" value="none"/>    
     <content src="index.html" />
     <access origin="*" />
     <plugin name="cordova-plugin-inappbrowser" spec="~1.7.1" />
