@@ -12,6 +12,9 @@
         },
         "cordova-plugin-screen-orientation": {
             "PACKAGE_NAME": "au.com.ifm.ecusis"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "au.com.ifm.ecusis"
         }
     },
     "dependent_plugins": {

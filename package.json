@@ -9,13 +9,15 @@
         ],
         "plugins": {
             "cordova-plugin-inappbrowser": {},
-            "cordova-plugin-screen-orientation": {}
+            "cordova-plugin-screen-orientation": {},
+            "cordova-plugin-splashscreen": {}
         }
     },
     "dependencies": {
         "cordova-android": "~6.2.3",
         "cordova-plugin-inappbrowser": "~1.7.1",
         "cordova-plugin-screen-orientation": "^2.0.1",
+        "cordova-plugin-splashscreen": "^4.0.3",
         "es6-promise-plugin": "git+https://github.com/vstirbu/PromisesPlugin.git"
     }
 }

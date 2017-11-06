@@ -22,6 +22,14 @@ module.exports = [
         "clobbers": [
             "cordova.plugins.screenorientation"
         ]
+    },
+    {
+        "id": "cordova-plugin-splashscreen.SplashScreen",
+        "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
+        "pluginId": "cordova-plugin-splashscreen",
+        "clobbers": [
+            "navigator.splashscreen"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -29,7 +37,8 @@ module.exports.metadata =
 {
     "cordova-plugin-inappbrowser": "1.7.1",
     "es6-promise-plugin": "4.1.0",
-    "cordova-plugin-screen-orientation": "2.0.1"
+    "cordova-plugin-screen-orientation": "2.0.1",
+    "cordova-plugin-splashscreen": "4.0.3"
 };
 // BOTTOM OF METADATA
 });

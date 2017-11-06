@@ -21,6 +21,10 @@
     <feature name="CDVOrientation">
         <param name="ios-package" value="CDVOrientation" />
     </feature>
+    <feature name="SplashScreen">
+        <param name="ios-package" value="CDVSplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
     <name>ECUSIS</name>
     <description>
         ECUSIS Map Mobile app
@@ -29,8 +33,11 @@
         IntegratedFM (IFM) Team
     </author>
     <icon src="icon.png" />
+    <splash src="icon.png" />
     <content src="index.html" />
     <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
     <preference name="AllowInlineMediaPlayback" value="false" />
     <preference name="BackupWebStorage" value="cloud" />
     <preference name="DisallowOverscroll" value="false" />

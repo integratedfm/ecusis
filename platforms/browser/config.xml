@@ -8,6 +8,9 @@
         IntegratedFM (IFM) Team
     </author>
     <icon src="icon.png" />
+    <splash src="icon.png" />
     <content src="index.html" />
     <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
 </widget>
