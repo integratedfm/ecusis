@@ -33,6 +33,7 @@
         IntegratedFM (IFM) Team
     </author>
     <splash height="480" src="res/ios/screen/Default~iphone.png" width="320" />
+    <splash height="568" src="res/ios/screen/Default~iphone.png" width="320" />
     <splash height="960" src="res/ios/screen/Default@2x~iphone.png" width="640" />
     <splash height="1024" src="res/ios/screen/Default-Portrait~ipad.png" width="768" />
     <splash height="2048" src="res/ios/screen/Default-Portrait@2x~ipad.png" width="1536" />
@@ -73,5 +74,4 @@
     <preference name="PageLength" value="0" />
     <preference name="PaginationBreakingMode" value="page" />
     <preference name="PaginationMode" value="unpaginated" />
-    <preference name="SplashScreen" value="none" />
 </widget>
