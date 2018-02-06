@@ -35,7 +35,7 @@ var app = {
 };
 
 function onImageClicked(){
-    window.open("https://ecusis.ecu.edu.au/", '_system');
+    window.open("https://ecusis.ecu.edu.au/ECU/mapenquiry_guest.aspx?map=MLsite", '_system');
 };
 
 function openSelectedSite(gsite){
